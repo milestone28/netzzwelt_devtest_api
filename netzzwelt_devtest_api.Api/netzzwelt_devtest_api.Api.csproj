@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\netzzwelt_devtest_api.Application\netzzwelt_devtest_api.Application.csproj" />
+    <ProjectReference Include="..\netzzwelt_devtest_api.Contracts\netzzwelt_devtest_api.Contracts.csproj" />
+    <ProjectReference Include="..\netzzwelt_devtest_api.Infrastructure\netzzwelt_devtest_api.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

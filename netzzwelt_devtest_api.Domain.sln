@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netzzwelt_devtest_api.Domain", "netzzwelt_devtest_api.Domain\netzzwelt_devtest_api.Domain.csproj", "{557AA513-A385-45C2-BE69-DBA8FB809577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netzzwelt_devtest_api.Application", "netzzwelt_devtest_api.Application\netzzwelt_devtest_api.Application.csproj", "{C1BEE4CD-9C32-4978-B690-D46D98ED2319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netzzwelt_devtest_api.Contracts", "netzzwelt_devtest_api.Contracts\netzzwelt_devtest_api.Contracts.csproj", "{52EE5959-B94B-4712-8E80-FE7B15CF011D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netzzwelt_devtest_api.Infrastructure", "netzzwelt_devtest_api.Infrastructure\netzzwelt_devtest_api.Infrastructure.csproj", "{33AA08D9-5EBB-46E6-8996-3FFE62249963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netzzwelt_devtest_api.Api", "netzzwelt_devtest_api.Api\netzzwelt_devtest_api.Api.csproj", "{01BFB7A3-8458-47D8-89E5-3F086F14E55A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{557AA513-A385-45C2-BE69-DBA8FB809577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557AA513-A385-45C2-BE69-DBA8FB809577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557AA513-A385-45C2-BE69-DBA8FB809577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557AA513-A385-45C2-BE69-DBA8FB809577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BEE4CD-9C32-4978-B690-D46D98ED2319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BEE4CD-9C32-4978-B690-D46D98ED2319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BEE4CD-9C32-4978-B690-D46D98ED2319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BEE4CD-9C32-4978-B690-D46D98ED2319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EE5959-B94B-4712-8E80-FE7B15CF011D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EE5959-B94B-4712-8E80-FE7B15CF011D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EE5959-B94B-4712-8E80-FE7B15CF011D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EE5959-B94B-4712-8E80-FE7B15CF011D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AA08D9-5EBB-46E6-8996-3FFE62249963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AA08D9-5EBB-46E6-8996-3FFE62249963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AA08D9-5EBB-46E6-8996-3FFE62249963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AA08D9-5EBB-46E6-8996-3FFE62249963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BFB7A3-8458-47D8-89E5-3F086F14E55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BFB7A3-8458-47D8-89E5-3F086F14E55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BFB7A3-8458-47D8-89E5-3F086F14E55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BFB7A3-8458-47D8-89E5-3F086F14E55A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24055925-4EF3-46C5-8FE1-E2A520451659}
+	EndGlobalSection
+EndGlobal
