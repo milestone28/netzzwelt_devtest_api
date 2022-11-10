@@ -39,9 +39,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 {
+
     // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-    {
+   // if (app.Environment.IsDevelopment())
+   // {
         //  app.UseMiddleware<ErrorHandlingMiddleware>();
 
 
@@ -49,11 +50,15 @@ var app = builder.Build();
         app.UseExceptionHandler("/error");
         app.UseHttpsRedirection();
         app.UseSwagger();
-        app.UseSwaggerUI();
+        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "netzzwelt_devtest_api v1"));
         app.UseAuthorization();
         app.MapControllers();
+
         app.Run();
-    }
+   // }
+
+
 
 }
+
 
