@@ -9,7 +9,7 @@ namespace netzzwelt_devtest_api.Api.Controllers
 {
     [ApiController]
     [Route("Territories")]
-    [EnableCors("AllowOrigin")]
+    [EnableCors("AllowAllOrigin")]
 
     public class TerritoriesController : Controller
     {
